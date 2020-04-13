@@ -1,22 +1,25 @@
 {
-  "name": "goit-js-course",
-  "version": "1.0.0",
+  "name": "webpack-starter-kit",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env.mode development",
     "build": "webpack --env.mode production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/Katrusy86/src/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Katrusy86/src.git"
+    "url": "git+https://github.com/Katrusy86/goit-js-hw-12-countries"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Katrin Myronova <katrin.myronova@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Katrusy86/goit-js-hw-12-countries/issues"
+  },
+  "homepage": "https://Katrusy86.github.io/goit-js-hw-12-countries",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
